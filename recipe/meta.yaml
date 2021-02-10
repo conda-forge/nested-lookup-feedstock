@@ -1,5 +1,5 @@
 {% set name = "nested-lookup" %}
-{% set version = "0.2.21" %}
+{% set version = "0.2.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 23789e328bd1d0b3f9db93cf51b7103a978dd0d8a834770d2c19b365e934ab96
+  sha256: e39adacd11e879dd6383b0a832cde97edce25d2a29cbc03a9c80fefa3a131e8b
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python functions for working with deeply nested documents (lists and dicts)'
+  summary: Python functions for working with deeply nested documents (lists and dicts)
   dev_url: https://github.com/russellballestrini/nested-lookup
 
 extra:
