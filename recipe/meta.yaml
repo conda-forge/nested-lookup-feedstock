@@ -1,5 +1,5 @@
 {% set name = "nested-lookup" %}
-{% set version = "0.2.23" %}
+{% set version = "0.2.25" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7b8900c8e706e4f8c3309ebde229b109f487b15b9a8cae27b99026ad11e4b64c
+  sha256: 6fa832748c90381f2291d850809e32492519ee5f253d6a5acbc29d937eca02e8
 
 build:
   noarch: python
