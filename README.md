@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nested-lookup-f
 
 Summary: Python functions for working with deeply nested documents (lists and dicts)
 
-Development: https://github.com/russellballestrini/nested-lookup
+Development: https://git.unturf.com/python/nested-lookup/
 
 Current build status
 ====================
