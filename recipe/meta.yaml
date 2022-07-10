@@ -34,7 +34,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: Python functions for working with deeply nested documents (lists and dicts)
-  dev_url: https://github.com/russellballestrini/nested-lookup
+  dev_url: https://git.unturf.com/python/nested-lookup/
 
 extra:
   recipe-maintainers:
